@@ -147,3 +147,4 @@ class LoanDept
     private double myCollege;
     private double myBusiness;
     private double myHome;
+    }
