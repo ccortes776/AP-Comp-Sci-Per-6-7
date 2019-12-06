@@ -25,6 +25,12 @@ String name;
         moneyOwed.cloan(20000);
         System.out.print("Money Owed per Month over 5 years: " + moneyOwed.getCar());
      }
+        else if(name.equals("college"))
+     {
+        moneyOwed.moveTo(0.0453);
+        moneyOwed.collegeloan(40000);
+        System.out.print("Money Owed per Month over 10 years: " + moneyOwed.getCollege());
+     }
       else if(name.equals("business"))
      {
         moneyOwed.moveTo(.038); //FIX NUMBER RATE
@@ -147,4 +153,4 @@ class LoanDept
     private double myCollege;
     private double myBusiness;
     private double myHome;
-    }
+}
